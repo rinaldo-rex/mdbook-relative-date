@@ -1,0 +1,17 @@
+[package]
+name = "mdbook-relative-date"
+version = "0.1.0"
+edition = "2021"
+description = "An mdBook preprocessor for build-time relative date placeholders."
+license = "MIT"
+repository = ""
+
+[dependencies]
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+mdbook-preprocessor = "0.5"
+regex = "1"
+semver = "1"
+serde_json = "1"
+
+[dev-dependencies]
+pretty_assertions = "1"
