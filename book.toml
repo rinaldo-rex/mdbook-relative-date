@@ -4,7 +4,7 @@ authors = ["mdbook-relative-date"]
 language = "en"
 src = "book-src"
 
-# [preprocessor.relative-date]
+[preprocessor.relative-date]
 # For local development/demo usage. After installing the binary, replace with:
 # command = "mdbook-relative-date"
 # command = "cargo run --quiet --manifest-path ./Cargo.toml --"
