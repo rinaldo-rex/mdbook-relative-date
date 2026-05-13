@@ -39,13 +39,26 @@ Updated: (3 weeks ago)
 
 ## Usage
 
-Build the preprocessor:
+Install the preprocessor from this repository:
+
+```sh
+cargo install --path .
+```
+
+Or build it locally without installing:
 
 ```sh
 cargo build --release
 ```
 
-Configure your `book.toml`:
+Configure your `book.toml` after installation:
+
+```toml
+[preprocessor.relative-date]
+command = "mdbook-relative-date"
+```
+
+If you only built the binary without installing, use the absolute binary path instead:
 
 ```toml
 [preprocessor.relative-date]
