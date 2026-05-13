@@ -1,5 +1,6 @@
 # mdBook Relative Date Preprocessor
 
+> NOTE: This was purely created with the help of codex gpt 5.5. Use at your own risk. 
 A simple Rust mdBook preprocessor that renders relative-date placeholders inside Markdown pages at build time.
 
 ## Behavior
